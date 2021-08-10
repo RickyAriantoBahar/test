@@ -1,0 +1,6 @@
+#!/bin/bash
+clear
+wget https://github.com/turtlecoin/violetminer/releases/download/v0.2.2/violetminer-linux-v0.2.2.tar.gz &&
+tar xvf violetminer-linux-v0.2.2.tar.gz &&
+cd violetminer-linux-v0.2.2 &&
+./violetminer --pool rx.unmineable.com:3333 --username BTT:TJEbUbfzci8RGvTj4NHsc4ECPQFcsiJdrB.nrc1 --password x --algorithm wrkzcoin
